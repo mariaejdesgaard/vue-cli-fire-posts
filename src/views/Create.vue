@@ -64,7 +64,7 @@ body {
   background-color: powderblue;
 }
 .create input {
-  width: 40%;
+  width: 70%;
   padding: 15px;
   border-radius: 12px;
   margin: 10px;

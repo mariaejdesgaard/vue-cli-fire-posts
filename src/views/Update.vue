@@ -17,10 +17,10 @@
       <button class="choose-image" type="button" v-on:click="triggerChooseImg">
         Choose Image
       </button>
+      <button type="button" v-on:click="updatePost">Update post</button>
       <div>
         <img :src="post.image" class="image-preview" />
       </div>
-      <button type="button" v-on:click="updatePost">Update post</button>
     </form>
   </div>
 </template>
@@ -54,7 +54,7 @@ body {
   background-color: powderblue;
 }
 .update input {
-  width: 40%;
+  width: 70%;
   padding: 15px;
   border-radius: 12px;
   margin: 10px;
