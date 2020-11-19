@@ -4,14 +4,14 @@ import "firebase/firestore";
 // Get a Firestore instance
 export const db = firebase
   .initializeApp({
-    apiKey: "AIzaSyD2J8RQqu2w6J2B6e4Mbn4ty_QEsHhVF0M",
-    authDomain: "post-app-7cb59.firebaseapp.com",
-    databaseURL: "https://post-app-7cb59.firebaseio.com",
-    projectId: "post-app-7cb59",
-    storageBucket: "post-app-7cb59.appspot.com",
-    messagingSenderId: "508009210681",
-    appId: "1:508009210681:web:abcd78e05897ce987afee8"
+   apiKey: "AIzaSyA_4l4Y7wA34IypZzEzTYuBp-NucMSCQR0",
+    authDomain: "digital-startup-a4ef8.firebaseapp.com",
+    databaseURL: "https://digital-startup-a4ef8.firebaseio.com",
+    projectId: "digital-startup-a4ef8",
+    storageBucket: "digital-startup-a4ef8.appspot.com",
+    messagingSenderId: "282494325930",
+    appId: "1:282494325930:web:42846aacb22e337cc22cd3"
   })
   .firestore();
 
-export const postRef = db.collection("posts");
+export const postRef = db.collection("items");

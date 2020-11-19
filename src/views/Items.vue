@@ -1,6 +1,6 @@
 <template>
-  <div class="home">
-    <img alt="Vue logo" src="../assets/logo.png" />
+  <div class="items">
+    <h1>Items</h1>
     <post-list></post-list>
   </div>
 </template>
@@ -10,9 +10,14 @@
 import PostList from "@/components/PostList.vue";
 
 export default {
-  name: "Home",
+  name: "Items",
   components: {
-    PostList,
-  },
+    PostList
+  }
 };
 </script>
+<style>
+button {
+  margin: 5px;
+}
+</style>

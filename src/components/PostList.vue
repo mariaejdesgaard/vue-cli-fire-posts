@@ -5,6 +5,10 @@
       <article v-for="post in posts" :key="post.id">
         <img :src="post.image" alt="" />
         <h3>{{ post.description }}</h3>
+        <router-link :to="{ name: 'Update', params: { post: post } }">
+          <button>Update</button>
+        </router-link>
+        <button type="button" v-on:click="deletepost(post.id)">Delete</button>
       </article>
     </div>
   </div>
@@ -18,6 +22,13 @@ export default {
       posts: [],
     };
   },
+  methods:{
+deletepost(id){
+console.log(id);
+postRef.doc(id).delete()
+;}
+  },
+
   firestore: {
     posts: postRef,
   },
@@ -25,4 +36,12 @@ export default {
 </script>
 
 <style>
+.grid-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.grid-container img {
+  width: 70%;
+}
 </style>
