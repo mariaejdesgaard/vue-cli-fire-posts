@@ -1,6 +1,5 @@
 <template>
   <div>
-    <h2>Posts</h2>
     <div class="grid-container">
       <article v-for="post in posts" :key="post.id">
         <img :src="post.image" alt="" />

@@ -50,5 +50,26 @@ export default {
 </script>
 
 <style>
-
+body {
+  background-color: powderblue;
+}
+.update input {
+  width: 40%;
+  padding: 15px;
+  border-radius: 12px;
+  margin: 10px;
+  background-color: white;
+  border: solid grey 1px;
+}
+button {
+  width: 40%;
+  margin: 20px;
+  padding: 10px;
+  background-color: blanchedalmond;
+  border: solid grey 1px;
+  border-radius: 15px;
+}
+img {
+  width: 70%;
+}
 </style>

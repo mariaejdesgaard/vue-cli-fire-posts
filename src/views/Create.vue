@@ -64,7 +64,7 @@ body {
   background-color: powderblue;
 }
 .create input {
-  width: 70%;
+  width: 40%;
   padding: 15px;
   border-radius: 12px;
   margin: 10px;
@@ -73,13 +73,12 @@ body {
 }
 button {
   width: 40%;
-  margin: 20px;
+  margin: 5px;
   padding: 10px;
   background-color: blanchedalmond;
   border: solid grey 1px;
   border-radius: 15px;
 }
-
 article {
   padding: 10px;
 }

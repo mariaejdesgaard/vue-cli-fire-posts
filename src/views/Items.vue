@@ -17,7 +17,4 @@ export default {
 };
 </script>
 <style>
-button {
-  margin: 5px;
-}
 </style>
